@@ -2,10 +2,7 @@
 #### Build the Docker image
 To build a docker image of our app from the docker file instructions; we’ll go to the directory where our Dockerfile file is located:
 
-```bash
-$ cd testimony
-```
-Then write the docker build command line,
+Then write the docker build command.
 
 ```bash
 $ docker build -t testimony .
@@ -15,6 +12,7 @@ $ docker build -t testimony .
 Now we have a docker image of our app, and we can create containers from that image.
 
 Let's say we want 20 running containers of that image and all behind a load balancing server.
+
 For our HTTP server we’ll use HAProxy that will listen to port 85
 #### Docker SWARM !!!!!
  Now let’s create a swarm (with one computer for now, but you can easily add more to the swarm). To do this we'll write docker swarm init and we created a swarm!! 

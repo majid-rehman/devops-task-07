@@ -43,7 +43,7 @@ Ans: Each git tag will represent a docker tag.
 ```
  #### 2) Where could be the frontend assets be placed: inside the docker stack/version or somewhere else
 ```
- Ans: If local deployment, then inside docker and if cloud, then inside s3 instance.
+ Ans: If local deployment, then inside docker and if cloud, then inside s3 bucket.
 ```
  #### 3) How many stages should the docker and app pass before going Live?
 ```
